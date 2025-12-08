@@ -8,4 +8,6 @@ const toInt = (s: string) => parseInt(s);
 
 const sum = (l: number[]) => l.reduce((a, b) => a + b, 0);
 
-export { log, sum, toInt };
+const mul = (l: number[]) => l.reduce((a, b) => a * b, 1);
+
+export { log, mul, sum, toInt };
